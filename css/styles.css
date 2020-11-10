@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("open_sans/OpenSans-Regular.ttf") format("truetype");
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", "Arial";
+    font-size: 20px;
+    background-color:  rgba(0, 0, 0, 0.5);
+  }
+
+  nav, main, footer {
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main {
+    width: 1100px;
+    text-align: center;
+  }
+  
+
+  header {
+    background-color: #616161;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+  }
+  nav {
+    line-height: 50px;
+    height: 50px;
+    display: flex;
+  }
+  nav > div {
+    width: 50%;
+  }
+  
+
+  #banner {
+    background: url("../img/fondo3.jpg") no-repeat top left;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-left: 30%;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+  }
+  #banner div {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-height: 575px;
+    min-height: 575px;
+    max-width: 50%;
+  
+    background:rgba(0, 0, 0, 0.5)
+    ;
+    padding-left: 2%;
+    padding-right: 2%;
+
+  }
+  #banner h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 500;
+  }
+#banner  div div#info{
+  min-width: 430px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#banner  div div#info img#pc{
+align-items: center;
+width: 50vh;
+
+margin-top: 5vh;
+  }
+header nav div a{
+  color: aliceblue;
+  text-decoration: none;
+} 
+  
+ 
+  #main-article {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #main-article div {
+    width: 450px;
+    padding: 4rem 0;
+  }
+  #main-article .slogan-1 {
+    text-align: justify;
+    color: whitesmoke;
+  }
+  
+
+  article h2 {
+    font-size: 1.75rem;
+    line-height: 35px;
+    color: whitesmoke;
+  }
+  article p {
+    font-size: 1.125rem;
+    line-height: 27px;
+    color: whitesmoke;
+  }
+  article img{
+    width: 250px;
+    height: 150px;
+    margin-top: 3%;
+  }
+  
+
+  #list-cards {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0 2rem 0;
+    color: whitesmoke;
+  }
+  #list-cards article {
+    padding: 0 10px;
+    width: 33%;
+    color: whitesmoke;
+  }
+
+  footer {
+    font: normal 0.9rem "Open Sans";
+    padding: 10px 10%;
+    background-color: #53565a;
+    color: seashell;
+  }
+  
+	#contact-form{
+		padding: 20px;
+		height: auto;
+		box-sizing: border-box;
+	}
+	
+	
+	#contact-form form {
+		flex-direction: column;
+		height:auto;
+		padding: 20px;
+		width:90% !important;
+
+	}
+	.contact-left,.contact-right{
+		width:100%;
+		border: none;
+	}
+	.f-name,.f-email{
+		width: 100%;
+
+	}
+	.f-name input,.f-email input{
+		width:100%;
+		border: none;
+		background-color: #616161 !important;
+		padding: 10px;
+		box-sizing: border-box;
+		height: 40px;
+		
+	}
+	textarea{
+    background-color: #616161!important;
+		margin: 10px 0px;
+		padding: 10px;
+		height: 200px !important;
+		width:100% !important;
+	}
+	.message{
+		margin:0px;
+	}
+	#contact-form form h1{
+		margin:5px 0px;
+	}
+	
+	

@@ -1,0 +1,105 @@
+body{
+    background-image: url('../img/background.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+#grid-container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    gap:0px;
+    margin: auto;
+    width: 80%;
+    }
+    
+    #grid-container {
+        background-color: #ffffff;
+        text-align: center;
+       
+       
+    }
+
+
+#grid-container p{
+
+
+font-family: 'Unica One', cursive;}
+    #grid-container img{
+        width: 50%;
+        max-height: 250px;
+        margin-top: 5%;
+        
+    }
+    
+
+    #grid-container p{
+        background-color: rgb(255, 255, 255);
+    }
+    #title-grid{
+        grid-column: 1/span 4;
+        grid-row: 1;
+    }
+    #text1-grid{
+        grid-column: 1/span 2;
+        background-color: #616161;
+       
+    }
+    #text1-grid p,h3{
+      
+        background-color: #616161;
+       color: #ffffff;
+       text-align: left;
+    }
+    #text2-grid{
+        grid-column: 3/span 2;
+        background-color: #616161;
+       
+    }
+    #text4-grid{
+        grid-column: 2/span 2;
+        background-color: #ffffff;
+    }
+    #text5-grid{
+        grid-column: 4;
+        grid-row: 4/span 3;
+        background-color: #616161;
+    }
+    #text5-grid p,h4{
+      
+        background-color: #616161;
+       color: #ffffff;
+       text-align: center;
+    }
+    #text7-grid{
+        grid-column: 2/span 2;
+        background-color: #ffffff;
+
+    }
+    #text8-grid img{
+width: 150px;
+        height: 150px;
+    }
+    #text3-grid img{
+        width: 150px;
+                height: 150px;
+            }
+            #text6-grid img{
+                width: 150px;
+                        height: 150px;
+                    }
+    #text9-grid{
+        grid-column: 2/span 2;
+        background-color: #ffffff;
+    }
+    #text8-grid {
+        background-color: #616161;
+            }
+            #text3-grid {
+                background-color: #616161;
+                    }
+                    #text6-grid {
+                        background-color: #616161;
+                            }
+                            #text10-grid{
+                                grid-column: 1/span 4;
+                                background-color: #616161;
+                            }
